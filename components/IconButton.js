@@ -8,7 +8,7 @@ function IconButton({ onPress, icon, color }) {
       //{pressed} is a boolean value that is true when the button is pressed and false otherwise.
       style={({ pressed }) => pressed && styles.pressed}
     >
-      <Ionicons name="star" size={24} color="white" />
+      <Ionicons name={icon} size={24} color={color} />
     </Pressable>
   );
 }
